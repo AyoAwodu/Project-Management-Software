@@ -1,0 +1,34 @@
+{
+  "Projects": [
+    {
+      "Name": "ProjectManagementSoftware",
+      "Description": "The Description",
+      "TeamMembers": ["Suzanna Carter","Someone Else"],
+      "Risks": [
+        {
+          "RiskFactor": "Too few details",
+          "Status": "Incomplete"
+        },
+        {
+          "RiskFactor": "Too many details",
+          "Status": "Incomplete"
+        }
+      ],
+      "FunctionalRequirements": [
+        "Requirement 1",
+        "Requirement 2"
+      ],
+      "NonFunctionalRequirements": [
+        "Requirement 3",
+        "Requirement 4"
+      ],
+      "TimeSheet": {
+        "RequirementsAnalysis": 0,
+        "Designing": 0,
+        "Coding": 0,
+        "Testing": 0,
+        "ProjectManagement":  0
+      }
+    }
+  ]
+}
