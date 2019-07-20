@@ -1,0 +1,26 @@
+﻿<Window x:Class="ProjectManagementSoftware.EnterHours"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjectManagementSoftware"
+        mc:Ignorable="d"
+        Title="Enter Hours" Height="450" Width="800">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="239" Margin="0,180,0,0" VerticalAlignment="Top" Width="222" Source="images/power.png"/>
+        <TextBox Name="RequirementsTextBox" HorizontalAlignment="Left" Height="27" Margin="540,60,0,0" TextWrapping="Wrap" Text="Ex. 5" VerticalAlignment="Top" Width="197" TextChanged="TextBox_TextChanged"/>
+        <Label x:Name="Requirements_Analysis" Content="Requirements Analysis" HorizontalAlignment="Left" Margin="373,56,0,0" VerticalAlignment="Top" Height="37" Width="162" AutomationProperties.Name="Requirements Analysis" FontWeight="Bold"/>
+        <Label x:Name="Enter_Hours" Content="Enter Hours" HorizontalAlignment="Left" Margin="40,9,0,0" VerticalAlignment="Top" Height="37" Width="167" AutomationProperties.Name="Requirements Analysis" FontWeight="Bold" FontSize="14"/>
+        <TextBox Name="DesigningTextBox" HorizontalAlignment="Left" Height="27" Margin="540,120,0,0" TextWrapping="Wrap" Text="Ex. 5" VerticalAlignment="Top" Width="197" TextChanged="TextBox_TextChanged"/>
+        <Label x:Name="Designing" Content="Designing" HorizontalAlignment="Left" Margin="373,116,0,0" VerticalAlignment="Top" Height="37" Width="167" AutomationProperties.Name="Requirements Analysis" FontWeight="Bold"/>
+        <TextBox Name="CodingTextBox" HorizontalAlignment="Left" Height="27" Margin="540,180,0,0" TextWrapping="Wrap" Text="Ex. 5" VerticalAlignment="Top" Width="197" TextChanged="TextBox_TextChanged"/>
+        <Label x:Name="Coding" Content="Coding" HorizontalAlignment="Left" Margin="373,176,0,0" VerticalAlignment="Top" Height="37" Width="162" AutomationProperties.Name="Requirements Analysis" FontWeight="Bold"/>
+        <TextBox Name="TestingTextBox" HorizontalAlignment="Left" Height="27" Margin="540,240,0,0" TextWrapping="Wrap" Text="Ex. 5" VerticalAlignment="Top" Width="197" TextChanged="TextBox_TextChanged"/>
+        <Label x:Name="Testing" Content="Testing" HorizontalAlignment="Left" Margin="373,236,0,0" VerticalAlignment="Top" Height="37" Width="162" AutomationProperties.Name="Requirements Analysis" FontWeight="Bold"/>
+        <TextBox Name="ProjectManagementTextBox" HorizontalAlignment="Left" Height="27" Margin="540,300,0,0" TextWrapping="Wrap" Text="Ex. 5" VerticalAlignment="Top" Width="197" TextChanged="TextBox_TextChanged"/>
+        <Label x:Name="Project_Management" Content="Project Management" HorizontalAlignment="Left" Margin="373,296,0,0" VerticalAlignment="Top" Height="37" Width="162" AutomationProperties.Name="Requirements Analysis" FontWeight="Bold" RenderTransformOrigin="0.518,-0.324"/>
+        <ComboBox x:Name="Select_Project" HorizontalAlignment="Left" Margin="80,80,0,0" VerticalAlignment="Top" Width="120" IsDropDownOpen="True"/>
+        <Button Content="Submit" HorizontalAlignment="Left" Margin="662,374,0,0" VerticalAlignment="Top" Width="75" Click="Submit_Button_Click"/>
+    </Grid>
+</Window>
+
